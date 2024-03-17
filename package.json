@@ -1,0 +1,29 @@
+{
+  "name": "url_shortner",
+  "version": "1.0.0",
+  "description": "it takes the original url and sort it",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKA-HRS/URL-Shortener.git"
+  },
+  "author": "harsh raj sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AKA-HRS/URL-Shortener/issues"
+  },
+  "homepage": "https://github.com/AKA-HRS/URL-Shortener#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "nodemon": "^3.0.3",
+    "shortid": "^2.2.16",
+    "uuid": "^9.0.1"
+  }
+}
